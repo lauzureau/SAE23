@@ -13,13 +13,13 @@
 <div class="container mt-3">
   <h2>Qui sommes-nous ?</h2>
   <div class="mt-4 p-5 bg-primary text-white rounded">
-    <h1>Jumbotron Example</h1> 
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p> 
+    <h1>Qui est NTFExchange ?</h1> 
+    <p>NTFExchange est une entreprise travaillant dans le domaine des NFT (Non-Fungible Tokens) et de l'échange de biens numériques uniques. Nous sommes une plateforme en ligne sécurisée qui permet aux utilisateurs d'acheter, de vendre et de échanger des NFT de manière transparente et efficace.</p> 
   </div>
 </div><div class="container mt-3">
   <div class="mt-4 p-5 bg-primary text-white rounded">
-    <h1>Jumbotron Example</h1> 
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p> 
+    <h1>Qui travail chez NTFExchange ?</h1> 
+    <p>NTFExchange est géré par principalement par 4 personnes</p> 
   </div>
 </div>
 </body>
