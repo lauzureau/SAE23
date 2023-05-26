@@ -1,43 +1,70 @@
-<? php
 
-function setup() {
-    // Inclure les liens vers les fichiers CSS de Bootstrap
-    echo '<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">';
-    echo '<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>';
-    
-    // Ajouter l'icône visible sur l'onglet du navigateur
-    echo '<link rel="icon" href="images/icone2.png">';
-    
-    // Définir le titre de la page visible dans l'onglet du navigateur
-    echo '<title>Bibliothèque</title>';
-    echo '
-    <!DOCTYPE html>
-    <html lang="fr">
-        <head>
-            <meta charset="utf-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        </head>
-        <body>
-    ';
+<?php
+function setup($titre, $stitre){
+  echo '<!DOCTYPE html>
+  <html lang="en">
+  <head>
+  <title>'. $titre .'</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+  <div class="container-fluid p-5 bg-primary text-white text-center">
+  <h1>'. $titre .'</h1>
+  <p>'. $stitre .'</p>
+  <div class="connexion-header">
+  <span class="text-dark">Vous n êtes pas connecté</span>
+  <a href="#" class="btn btn-outline-dark btn-sm">Se connecter</a>
+  </div> 
+  </div>';
 }
-
-function pageheader() {
-    echo '
-    <div class="p-5 bg-secondary text-white">
-        <div class="row">
-            <div class="col">
-                <img src="images/icone3.png" class="rounded float-start" alt="Icone">
-            </div>
-            <div class="col">
-                <h1>BingoBook</h1>
-                <p>Tah la bibliothèque</p>
-            </div>
-            <div class="col clearfix">
-                <button type="button" class="btn btn-primary float-end">Connexion</button>
-            </div>
-        </div>
-    </div>
-    ';
+function pagenavbar(){
+  echo '<nav class="navbar navbar-expand-sm bg-dark navbar-dark style="position: absolute; top: 100%;">
+  <div class="container-fluid">
+  <ul class="navbar-nav">
+  <li class="nav-item">
+  <a class="nav-link" href="page01.php">Accueil</a>
+  </li>
+  <li class="nav-item">
+  <a class="nav-link" href="page02.php">Formulaire</a>
+  </li>
+  <li class="nav-item">
+  <a class="nav-link" href="page03.php">Traitement Fomulaire</a>
+  </li>
+  <li class="nav-item">
+  <a class="nav-link" href="page04.php">Informations</a>
+  </li>
+  <li class="nav-item">
+  <a class="nav-link" href="page05.php">Fichiers</a>
+  </li>
+  <li class="nav-item">
+  <a class="nav-link" href="page06.php">Administration</a>
+  </li>
+  <li class="nav-item">
+  <a class="nav-link" href="page07.php">Gestion des utilisateurs</a>
+  </li>
+  <li class="nav-item">
+  <a class="nav-link" href="page08.php">Fonctionnalitées</a>
+  </li>
+  </ul>
+  </div>
+  </nav>';
+}
+function pageheader($h1, $p){
+  echo "<h1>$h1</h1>
+  <p>$p</p>";
+}
+function pagefooter(){
+  
+  echo '<footer class="bg-light text-center text-lg-start fixed-bottom">
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+  © 2023 Copyright : Auzureau Loïck
+  </div>
+  <!-- Copyright -->
+  </footer>';
 }
 
 ?>
