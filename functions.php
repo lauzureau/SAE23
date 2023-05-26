@@ -1,6 +1,6 @@
 
 <?php
-function setup($titre, $stitre){
+function setup($titre){
   echo '<!DOCTYPE html>
   <html lang="en">
   <head>
@@ -10,14 +10,8 @@ function setup($titre, $stitre){
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
   </head>
-  <body>
-  <div class="container-fluid p-5 bg-primary text-white text-center">
-  <h1>'. $titre .'</h1>
-  <p>'. $stitre .'</p>
-  <div class="connexion-header">
-  <span class="text-dark">Vous n êtes pas connecté</span>
-  <a href="#" class="btn btn-outline-dark btn-sm">Se connecter</a>
-  </div> 
+  <body style="background-color:Gray;">
+  <img src="./img/Mondial_NFT_Saler_2_1.png" class="img-thumbnail rounded mx-auto d-block" alt="logo">
   </div>';
 }
 function pagenavbar(){
@@ -52,16 +46,15 @@ function pagenavbar(){
   </div>
   </nav>';
 }
-function pageheader($h1, $p){
-  echo "<h1>$h1</h1>
-  <p>$p</p>";
+function pageheader($h1){
+  echo '<h1 style="color:#ffc107;">'.$h1.'</h1>';
 }
 function pagefooter(){
   
   echo '<footer class="bg-light text-center text-lg-start fixed-bottom">
   <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-  © 2023 Copyright : Auzureau Loïck
+  <div class="text-center p-3" style="background-color: Gray;">
+  © 2023 Copyright : NFTExchange
   </div>
   <!-- Copyright -->
   </footer>';
