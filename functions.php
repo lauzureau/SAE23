@@ -1,4 +1,3 @@
-
 <?php
 function setup($titre){
   echo '<!DOCTYPE html>
@@ -79,6 +78,7 @@ function pagenavbar(){
       </div>
     </div>
   </div>';
+}
 function pageheader($h1){
   echo '<h1 style="color:#ffc107;">'.$h1.'</h1>';
 }
@@ -92,5 +92,4 @@ function pagefooter(){
   <!-- Copyright -->
   </footer>';
 }
-
 ?>
