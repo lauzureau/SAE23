@@ -1,4 +1,3 @@
-
 <?php
 function setup($titre){
   echo '<!DOCTYPE html>
@@ -14,37 +13,24 @@ function setup($titre){
   <img src="./img/Mondial_NFT_Saler_2_1.png" class="img-thumbnail rounded mx-auto d-block" alt="logo">
   </div>';
 }
-
-function pagenavbar() {
+function pagenavbar(){
   echo '<nav class="navbar navbar-expand-sm bg-dark navbar-dark style="position: absolute; top: 100%;">
   <div class="container-fluid">
   <ul class="navbar-nav">
   <li class="nav-item">
-  <a class="nav-link" href="home.php">Accueil</a>
+  <a class="nav-link" href="Accueil.php">Accueil</a>
   </li>
   <li class="nav-item">
-  <a class="nav-link" href="page02.php">Formulaire</a>
+  <a class="nav-link" href="About.php">Qui sommes nous ?</a>
   </li>
   <li class="nav-item">
-  <a class="nav-link" href="page03.php">Traitement Fomulaire</a>
+  <a class="nav-link" href="Histoire.php">Histoire</a>
   </li>
   <li class="nav-item">
-  <a class="nav-link" href="page04.php">Informations</a>
+  <a class="nav-link" href="Activites.php">Activités</a>
   </li>
   <li class="nav-item">
-  <a class="nav-link" href="page05.php">Fichiers</a>
-  </li>
-  <li class="nav-item">
-  <a class="nav-link" href="page06.php">Administration</a>
-  </li>
-  <li class="nav-item">
-  <a class="nav-link" href="page07.php">Gestion des utilisateurs</a>
-  </li>
-  <li class="nav-item">
-  <a class="nav-link" href="page08.php">Fonctionnalitées</a>
-  </li>
-  <li class="nav-item">
-  <a class="nav-link" href="activities.php">Activités</a>
+  <a class="nav-link" href="Partenaires.php">Nos partenaires</a>
   </li>
   </ul>
   <ul class="navbar-nav ml-auto">
@@ -84,7 +70,6 @@ function pagenavbar() {
     </div>
   </div>';
 }
-
 function pageheader($h1){
   echo '<h1 style="color:#ffc107;">'.$h1.'</h1>';
 }
@@ -98,5 +83,4 @@ function pagefooter(){
   <!-- Copyright -->
   </footer>';
 }
-
 ?>
