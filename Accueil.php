@@ -4,14 +4,13 @@ include "functions.php";
 
 setup("SAE23");
 
-
+echo ' <div class="container mt-3">';
 
 pageheader('NTFExchange');
 
 pagenavbar();
 
 echo "<div class='container'>
-			<h1>Qui sommes nous ?</h1>
 			<p>NTFExchange est une entreprise de premier plan dans le domaine des NFT (Non-Fungible Tokens) et de l'échange de biens numériques uniques. Nous sommes une plateforme en ligne sécurisée qui permet aux utilisateurs d'acheter, de vendre et de échanger des NFT de manière transparente et efficace.
 
 Chez NTFExchange, nous comprenons le potentiel révolutionnaire des NFT dans le domaine de l'art, de la musique, des jeux et bien d'autres secteurs. Nous croyons fermement que les NFT sont la prochaine évolution de la propriété numérique, offrant aux créateurs et aux collectionneurs la possibilité de détenir des actifs numériques uniques et authentifiés.
