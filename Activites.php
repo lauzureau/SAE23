@@ -4,16 +4,16 @@ include "functions.php";
 
 setup("SAE23");
 
-
+echo ' <div class="container mt-3">';
 
 pageheader('NTFExchange');
 
 pagenavbar();
 
 echo "
-	<div class='container'>
-		<h1>Nos activités</h1>
-		<ul> 
+	<div class='container'>";
+		echo '<h1 style="color:#ffc107;">Nos activités</h1>';
+		echo "<ul> 
 		<li>Plateforme d'échange de NFT : NTFExchange offre une plateforme en ligne permettant aux utilisateurs d'acheter, vendre et échanger des NFT de manière sécurisée et transparente.</li>
 		<li>Vente aux enchères de NFT : L'entreprise organise des ventes aux enchères régulières où les utilisateurs peuvent proposer leurs NFT uniques et les collectionneurs peuvent enchérir pour les acquérir.</li>
 		<li>Galerie d'art numérique : NTFExchange peut présenter une galerie virtuelle où les artistes peuvent exposer leurs œuvres NFT, offrant ainsi une visibilité accrue aux créateurs émergents.</li>
