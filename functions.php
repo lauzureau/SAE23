@@ -75,7 +75,7 @@ function pageheader($h1){
 }
 function pagefooter(){
   
-  echo '<footer class="bg-light text-center text-lg-start fixed-bottom">
+  echo '<footer class="bg-light text-center text-lg-start ">
   <!-- Copyright -->
   <div class="text-center p-3" style="background-color: Gray;">
   © 2023 Copyright : NFTExchange
