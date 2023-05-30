@@ -1,3 +1,4 @@
+
 <?php
 function setup($titre){
   echo '<!DOCTYPE html>
@@ -13,12 +14,13 @@ function setup($titre){
   <img src="./img/Mondial_NFT_Saler_2_1.png" class="img-thumbnail rounded mx-auto d-block" alt="logo">
   </div>';
 }
-function pagenavbar(){
+
+function pagenavbar() {
   echo '<nav class="navbar navbar-expand-sm bg-dark navbar-dark style="position: absolute; top: 100%;">
   <div class="container-fluid">
   <ul class="navbar-nav">
   <li class="nav-item">
-  <a class="nav-link" href="page01.php">Accueil</a>
+  <a class="nav-link" href="home.php">Accueil</a>
   </li>
   <li class="nav-item">
   <a class="nav-link" href="page02.php">Formulaire</a>
@@ -40,6 +42,9 @@ function pagenavbar(){
   </li>
   <li class="nav-item">
   <a class="nav-link" href="page08.php">Fonctionnalitées</a>
+  </li>
+  <li class="nav-item">
+  <a class="nav-link" href="activities.php">Activités</a>
   </li>
   </ul>
   <ul class="navbar-nav ml-auto">
@@ -79,6 +84,7 @@ function pagenavbar(){
     </div>
   </div>';
 }
+
 function pageheader($h1){
   echo '<h1 style="color:#ffc107;">'.$h1.'</h1>';
 }
@@ -92,4 +98,5 @@ function pagefooter(){
   <!-- Copyright -->
   </footer>';
 }
+
 ?>
