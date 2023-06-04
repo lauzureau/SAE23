@@ -1,6 +1,6 @@
 <?php
 // Charger les comptes existants à partir du fichier
-$comptes = json_decode(file_get_contents('comptes.json'), true);
+$comptes = json_decode(file_get_contents('./js/comptes.json'), true);
 
 // Vérification du formulaire de connexion
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
