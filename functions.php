@@ -38,7 +38,7 @@ function pagenavbar(){
           <a class="nav-link" href="inscription.php" data-bs-toggle="modal" data-bs-target="#loginModal">Connexion</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Inscription</a>
+            <a class="nav-link" href="inscription.php">Inscription</a>
           </li>
         </ul>
   </div>
