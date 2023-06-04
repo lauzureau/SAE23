@@ -70,8 +70,8 @@ function pagenavbar(){
     </div>
   </div>';
 }
-function pageheader($h1){
-  echo '<h1 style="color:#ffc107;">'.$h1.'</h1>';
+function pageheader($title){
+  echo '<h1 style="color:#ffc107;">'.$title.'</h1>';
    echo '<!DOCTYPE html>
   <html>
   <head>
