@@ -30,7 +30,7 @@ function pagenavbar(){
   <a class="nav-link" href="Activites.php">Activités</a>
   </li>
   <li class="nav-item">
-  <a class="nav-link" href="Partenaires.php">Nos partenaires</a>
+  <a class="nav-link" href="partenaire.php">Nos partenaires</a>
   </li>
   </ul>
   <ul class="navbar-nav ml-auto">
