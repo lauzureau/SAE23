@@ -72,6 +72,38 @@ function pagenavbar(){
 }
 function pageheader($h1){
   echo '<h1 style="color:#ffc107;">'.$h1.'</h1>';
+   echo '<!DOCTYPE html>
+  <html>
+  <head>
+  <meta charset="utf-8">
+  <title>';
+
+  // Modifier le titre en fonction du contexte
+  if ($title === "connexion_reussie") {
+      echo "Connexion réussie";
+  } elseif ($title === "inscription_reussie") {
+      echo "Inscription réussie";
+  } else {
+      echo $title;
+  }
+
+  echo '</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  </head>
+  <body>
+  <div class="container">
+  <h1 style="color:#ffc107;">';
+
+  // Modifier le titre en fonction du contexte
+  if ($title === "connexion_reussie") {
+      echo "Connexion réussie";
+  } elseif ($title === "inscription_reussie") {
+      echo "Inscription réussie";
+  } else {
+      echo $title;
+  }
+
+  echo '</h1>';
 }
 
 function displayRegistrationFormWithError() {
