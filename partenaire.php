@@ -4,9 +4,11 @@ setup("Partenaire");
  ?>
 <!DOCTYPE html>
 <html class="responsive">
+
 <?php pagenavbar();
 pageheader("Nos partenaires"); ?>
 <body>
+
 <div class="row row-cols-1 row-cols-md-2 g-4">
    
   <div class="col"> 
@@ -15,6 +17,7 @@ pageheader("Nos partenaires"); ?>
             position: relative;
             width: 50%;
         }
+
         .image {
   display: block;
   width: 100%;
@@ -176,8 +179,6 @@ function imageTheVault() {
   </div>
 </div>
 </div>
-
-
 
 <?php  
 pagefooter();?>
