@@ -54,7 +54,7 @@ function pagenavbar(){
         </div>
         <div class="modal-body">
           <!-- Formulaire de connexion -->
-          <form>
+          <form method="POST" action="connexion.php">
             <div class="mb-3">
               <label for="username" class="form-label">Nom d\'utilisateur</label>
               <input type="text" class="form-control" id="username">
