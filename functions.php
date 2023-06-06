@@ -129,6 +129,21 @@ function displayRegistrationFormWithError() {
             <button type="submit" class="btn btn-primary">S\'inscrire</button>
         </form>';
 }
+
+// Fonction pour vérifier si l'utilisateur est connecté
+function checkLoggedIn() {
+  // Vérifier si la variable de session 'logged_in' est définie et est vraie
+  if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
+      return true; // L'utilisateur est connecté
+  } else {
+      return false; // L'utilisateur n'est pas connecté
+  }
+}
+
+// Fonction pour générer le lien de déconnexion
+function generateLogoutLink() {
+  return '<a href="deconnexion.php" class="btn btn-danger float-right">Se déconnecter</a>';
+}
 function pagefooter(){
   
   echo '<footer class="bg-light text-center text-lg-start ">
