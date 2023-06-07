@@ -1,13 +1,157 @@
 [
-    {
-      "username": "hugo",
-      "password": "bonjour",
-      "email": "hugo@gmail.com"
-    },
-    {
+  {
+    "username": "hugo",
+    "password": "bonjour",
+    "email": "hugo@gmail.com"
+  },
+  {
+    "username": "emma",
+    "password": "hello",
+    "email": "emma@gmail.com"
+  },
+  {
       "username": "admin",
       "password": "bonjour",
       "email": "jadmin@gmail.com"
-    }
-  ]
-  
+  },
+  {
+    "username": "noah",
+    "password": "12345",
+    "email": "noah@gmail.com"
+  },
+  {
+    "username": "mia",
+    "password": "password123",
+    "email": "mia@gmail.com"
+  },
+  {
+    "username": "liam",
+    "password": "welcome",
+    "email": "liam@gmail.com"
+  },
+  {
+    "username": "olivia",
+    "password": "olivia123",
+    "email": "olivia@gmail.com"
+  },
+  {
+    "username": "ethan",
+    "password": "ethan567",
+    "email": "ethan@gmail.com"
+  },
+  {
+    "username": "ava",
+    "password": "avapass",
+    "email": "ava@gmail.com"
+  },
+  {
+    "username": "jackson",
+    "password": "jackson12",
+    "email": "jackson@gmail.com"
+  },
+  {
+    "username": "sophia",
+    "password": "sophiapw",
+    "email": "sophia@gmail.com"
+  },
+  {
+    "username": "aiden",
+    "password": "aiden789",
+    "email": "aiden@gmail.com"
+  },
+  {
+    "username": "isabella",
+    "password": "isabella",
+    "email": "isabella@gmail.com"
+  },
+  {
+    "username": "carter",
+    "password": "carter123",
+    "email": "carter@gmail.com"
+  },
+  {
+    "username": "charlotte",
+    "password": "charlottepw",
+    "email": "charlotte@gmail.com"
+  },
+  {
+    "username": "michael",
+    "password": "michael1",
+    "email": "michael@gmail.com"
+  },
+  {
+    "username": "amelia",
+    "password": "amelia123",
+    "email": "amelia@gmail.com"
+  },
+  {
+    "username": "lucas",
+    "password": "lucaspass",
+    "email": "lucas@gmail.com"
+  },
+  {
+    "username": "mia",
+    "password": "miapass",
+    "email": "mia@gmail.com"
+  },
+  {
+    "username": "henry",
+    "password": "henry789",
+    "email": "henry@gmail.com"
+  },
+  {
+    "username": "lily",
+    "password": "lilypw",
+    "email": "lily@gmail.com"
+  },
+  {
+    "username": "alexander",
+    "password": "alex123",
+    "email": "alexander@gmail.com"
+  },
+  {
+    "username": "emily",
+    "password": "emilypass",
+    "email": "emily@gmail.com"
+  },
+  {
+    "username": "sebastian",
+    "password": "sebastian12",
+    "email": "sebastian@gmail.com"
+  },
+  {
+    "username": "scarlett",
+    "password": "scarlettpw",
+    "email": "scarlett@gmail.com"
+  },
+  {
+    "username": "daniel",
+    "password": "danielpass",
+    "email": "daniel@gmail.com"
+  },
+  {
+    "username": "abigail",
+    "password": "abigailpw",
+    "email": "abigail@gmail.com"
+  },
+  {
+    "username": "jack",
+    "password": "jack456",
+    "email": "jack@gmail.com"
+  },
+  {
+    "username": "victoria",
+    "password": "victoriapw",
+    "email": "victoria@gmail.com"
+  },
+  {
+    "username": "owen",
+    "password": "owen123",
+    "email": "owen@gmail.com"
+  },
+  {
+    "username": "zoey",
+    "password": "zoeypass",
+    "email": "zoey@gmail.com"
+  }
+]
