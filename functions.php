@@ -8,6 +8,7 @@ function setup($titre){
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
   </head>
   <body style="background-color:Gray;">
   <img src="./img/Mondial_NFT_Saler_2_1.png" class="img-thumbnail rounded mx-auto d-block" alt="logo">
@@ -128,21 +129,6 @@ function displayRegistrationFormWithError() {
             </div>
             <button type="submit" class="btn btn-primary">S\'inscrire</button>
         </form>';
-}
-
-// Fonction pour vérifier si l'utilisateur est connecté
-function checkLoggedIn() {
-  // Vérifier si la variable de session 'logged_in' est définie et est vraie
-  if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
-      return true; // L'utilisateur est connecté
-  } else {
-      return false; // L'utilisateur n'est pas connecté
-  }
-}
-
-// Fonction pour générer le lien de déconnexion
-function generateLogoutLink() {
-  return '<a href="deconnexion.php" class="btn btn-danger float-right">Se déconnecter</a>';
 }
 function pagefooter(){
   
