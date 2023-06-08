@@ -11,9 +11,8 @@ setup("SAE23");
     
     <?php pagenavbar();
 pageheader("Nos partenaires"); ?> 
-<br> <br> 
-   <!-- Nous sommes fiers de vous présenter nos partenaires de renom : Goldman Sachs, JPMorgan Chase et Citigroup. Grâce à leur soutien, nous créons un écosystème solide pour les artistes et les collectionneurs de NFT. Ensemble, nous façonnons l'avenir de l'art numérique et de la finance, offrant des opportunités uniques et une visibilité mondiale aux talents émergents. Rejoignez-nous dans cette nouvelle ère passionnante, où la créativité rencontre l'innovation financière. Explorez nos collections, enchères et événements exclusifs, et découvrez le pouvoir des NFTs dans notre partenariat avec Goldman Sachs, JPMorgan Chase et Citigroup. Bienvenue dans notre univers inspirant.
--->
+<br>  <div class="mt-4 p-5 bg-dark text-warning rounded">
+   Nous sommes fiers de vous présenter nos partenaires de renom : Goldman Sachs, JPMorgan Chase et Citigroup. Grâce à leur soutien, nous créons un écosystème solide pour les artistes et les collectionneurs de NFT. Ensemble, nous façonnons l'avenir de l'art numérique et de la finance, offrant des opportunités uniques et une visibilité mondiale aux talents émergents. Rejoignez-nous dans cette nouvelle ère passionnante, où la créativité rencontre l'innovation financière. Explorez nos collections, enchères et événements exclusifs, et découvrez le pouvoir des NFTs dans notre partenariat avec Goldman Sachs, JPMorgan Chase et Citigroup. Bienvenue dans notre univers inspirant.</div>
 
 
   <div class="mt-4 p-5 bg-dark text-warning rounded">
@@ -22,13 +21,12 @@ pageheader("Nos partenaires"); ?>
    
   <div class="col"> 
     <style>
-        .container{
+.container{
             position: relative;
             width: 100%;
             height: 100%;
         }
-
-        .image {
+.image {
   display: block;
   width: 250%;
 
@@ -65,8 +63,6 @@ pageheader("Nos partenaires"); ?>
     </style>
      <div class="container">
     <div class="card">
-
-        
       <img src="../img/283.jpg" class="image" alt="Card image" style="cursor:pointer">
         <div class="overlay">  
    <!-- <script> //Le script suivant permet d'afficher les infomartions quand on a cliquer sur l'image 283
@@ -76,14 +72,14 @@ pageheader("Nos partenaires"); ?>
   document.getElementById("IMAGE293").innerHTML = ' <h5  class="card-title">283</h5><p id="image" class="card-text">Autheur : Mad Dog Jones</p>';
     }
   </script> -->
-   <div class="text">Autheur : Mad Dog Jones <br>Nom de l'oeuvre: 283 </div>
+   <div class="text">Autheur : Mad Dog Jones <br>Nom de l'oeuvre: 283 <br>Platform: NFTExchange</div>
         </div>
     </div>
-    <br> <br><br>
+      <br> <br><br>
     <div class="mt-4 p-5 bg-dark text-warning rounded">
-   <p> Mad Dog Jones est un artiste numérique renommé pour ses créations saisissantes qui mêlent l'art traditionnel et l'esthétique cyberpunk. Ses œuvres combinent des éléments réalistes avec des éléments futuristes, créant ainsi un monde visuel captivant. Mad Dog Jones explore des thèmes tels que la technologie, la société de consommation, l'aliénation et les relations humaines dans un contexte technologique. Ses œuvres d'art sont riches en détails, en textures et en symbolismes, invitant les spectateurs à réfléchir sur les complexités de notre monde moderne. En tant qu'artiste NFT, Mad Dog Jones a connu un grand succès, avec ses créations uniques recherchées par les collectionneurs du monde entier. </p></div>
+      <p> Mad Dog Jones est un artiste numérique renommé pour ses créations saisissantes qui mêlent l'art traditionnel et l'esthétique cyberpunk. Ses œuvres combinent des éléments réalistes avec des éléments futuristes, créant ainsi un monde visuel captivant. Mad Dog Jones explore des thèmes tels que la technologie, la société de consommation, l'aliénation et les relations humaines dans un contexte technologique. Ses œuvres d'art sont riches en détails, en textures et en symbolismes, invitant les spectateurs à réfléchir sur les complexités de notre monde moderne. En tant qu'artiste NFT, Mad Dog Jones a connu un grand succès, avec ses créations uniques recherchées par les collectionneurs du monde entier. </p>
     </div>
-  
+  </div>
 </div>
 
   <div class="col">
@@ -130,11 +126,10 @@ pageheader("Nos partenaires"); ?>
 
 </style>
        <div class="container3">
-    <div class="card">
-        
-      <img src="../img/the vault.gif" class="image3" alt="Card image" style="cursor:pointer">
+    <div class="card"> 
+      <img src="./img/the vault.gif" class="image3" alt="Card image" style="cursor:pointer">
       <div class="overlay3">
-         <div class="text3">Auteur :XCOPY <br>Platform: SuperRare  <br>Blockchain: Ethereum<br>date de création: 04/04/20<br><br>Type: Unique <br>Edition: 1/1 <br>Licence: CC0 <br>oeuvre: the_vault <br>
+         <div class="text3">Auteur :XCOPY <br>Platform: NFTExchange  <br>Blockchain: Ethereum<br>date de création: 04/04/20<br><br>Type: Unique <br>Edition: 1/1 <br>Licence: CC0 <br>oeuvre: the_vault <br>
          </div>
     <!--  <script>
 document.getElementById("IMAGETheVault").addEventListener("click", imageTheVault);
@@ -203,7 +198,7 @@ function imageTheVault() {
     Edition: 1/100 <br>
     Licence: CC0<br>
     Owner: ArtiVault<br>
-    Platform: KnownOrigin<br>
+    Platform: NFTExchange<br>
     Blockchain: Ethereum<br>
     Minted: 21/10/18<br>
  </div>
@@ -252,7 +247,7 @@ function imageTheVault() {
 
         <div class="text">
 
-    Autheur : Mad Dog Jones <br>Nom de l’œuvre REPLICATOR </div>
+    Autheur : Mad Dog Jones <br>Nom de l’œuvre REPLICATOR <br>Platform: NFTExchange </div>
       </div>
     </div>
   </div>
