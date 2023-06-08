@@ -11,8 +11,7 @@ function setup($titre){
   <link rel="stylesheet" href="css/style.css">
   </head>
   <body style="background-color:Gray;">
-  <img src="./img/Mondial_NFT_Saler_2_1.png" class="img-thumbnail rounded mx-auto d-block" alt="logo">
-  </div>';
+  <img src="./img/Mondial_NFT_Saler_2_1.png" class="img-thumbnail rounded mx-auto d-block" alt="logo">';
 }
 function pagenavbar(){
   echo '<nav class="navbar navbar-expand-sm bg-dark navbar-dark style="position: absolute; top: 100%;">
@@ -32,9 +31,6 @@ function pagenavbar(){
   </li>
   <li class="nav-item">
   <a class="nav-link" href="partenaire.php">Nos partenaires</a>
-  </li>
-  <li class="nav-item">
-  <a class="nav-link" href="boutique_vitrine.php">Boutique</a>
   </li>
   </ul>
   <ul class="navbar-nav ml-auto">
@@ -75,7 +71,6 @@ function pagenavbar(){
   </div>';
 }
 function pageheader($title){
-  echo '<h1 style="color:#ffc107;">'.$title.'</h1>';
    echo '<!DOCTYPE html>
   <html>
   <head>
@@ -92,10 +87,8 @@ function pageheader($title){
   }
 
   echo '</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
   </head>
-  <body>
-  <div class="container">
   <h1 style="color:#ffc107;">';
 
   // Modifier le titre en fonction du contexte
