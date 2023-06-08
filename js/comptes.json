@@ -2,156 +2,187 @@
   {
     "username": "hugo",
     "password": "bonjour",
-    "email": "hugo@gmail.com"
+    "email": "hugo@gmail.com",
+    "photo": "./img/profil/téléchargé.jfif"
   },
   {
     "username": "emma",
     "password": "hello",
-    "email": "emma@gmail.com"
+    "email": "emma@gmail.com",
+    "photo": "./img/profil/téléchargé (30).jfif"
   },
   {
       "username": "admin",
       "password": "bonjour",
-      "email": "jadmin@gmail.com"
+      "email": "jadmin@gmail.com",
+      "photo": "./img/profil/téléchargé (32).jfif"
   },
   {
     "username": "noah",
     "password": "12345",
-    "email": "noah@gmail.com"
+    "email": "noah@gmail.com",
+    "photo": "./img/profil/téléchargé (1).jfif"
   },
   {
     "username": "mia",
     "password": "password123",
-    "email": "mia@gmail.com"
+    "email": "mia@gmail.com",
+    "photo": "./img/profil/téléchargé (17).jfif"
   },
   {
     "username": "liam",
     "password": "welcome",
-    "email": "liam@gmail.com"
+    "email": "liam@gmail.com",
+    "photo": "./img/profil/téléchargé (2).jfif"
   },
   {
     "username": "olivia",
     "password": "olivia123",
-    "email": "olivia@gmail.com"
+    "email": "olivia@gmail.com",
+    "photo": "./img/profil/téléchargé (18).jfif"
   },
   {
     "username": "ethan",
     "password": "ethan567",
-    "email": "ethan@gmail.com"
+    "email": "ethan@gmail.com",
+    "photo": "./img/profil/téléchargé (4).jfif"
   },
   {
     "username": "ava",
     "password": "avapass",
-    "email": "ava@gmail.com"
+    "email": "ava@gmail.com",
+    "photo": "./img/profil/téléchargé (19).jfif"
   },
   {
     "username": "jackson",
     "password": "jackson12",
-    "email": "jackson@gmail.com"
+    "email": "jackson@gmail.com",
+    "photo": "./img/profil/téléchargé (5).jfif"
   },
   {
     "username": "sophia",
     "password": "sophiapw",
-    "email": "sophia@gmail.com"
+    "email": "sophia@gmail.com",
+    "photo": "./img/profil/téléchargé (20).jfif"
   },
   {
     "username": "aiden",
     "password": "aiden789",
-    "email": "aiden@gmail.com"
+    "email": "aiden@gmail.com",
+    "photo": "./img/profil/téléchargé (6).jfif"
   },
   {
     "username": "isabella",
     "password": "isabella",
-    "email": "isabella@gmail.com"
+    "email": "isabella@gmail.com",
+    "photo": "./img/profil/téléchargé (21).jfif"
   },
   {
     "username": "carter",
     "password": "carter123",
-    "email": "carter@gmail.com"
+    "email": "carter@gmail.com",
+    "photo": "./img/profil/téléchargé (7).jfif"
   },
   {
     "username": "charlotte",
     "password": "charlottepw",
-    "email": "charlotte@gmail.com"
+    "email": "charlotte@gmail.com",
+    "photo": "./img/profil/téléchargé (22).jfif"
   },
   {
     "username": "michael",
     "password": "michael1",
-    "email": "michael@gmail.com"
+    "email": "michael@gmail.com",
+    "photo": "./img/profil/téléchargé (8).jfif"
   },
   {
     "username": "amelia",
     "password": "amelia123",
-    "email": "amelia@gmail.com"
+    "email": "amelia@gmail.com",
+    "photo": "./img/profil/téléchargé (23).jfif"
   },
   {
     "username": "lucas",
     "password": "lucaspass",
-    "email": "lucas@gmail.com"
+    "email": "lucas@gmail.com",
+    "photo": "./img/profil/téléchargé (9).jfif"
   },
   {
     "username": "mia",
     "password": "miapass",
-    "email": "mia@gmail.com"
+    "email": "mia@gmail.com",
+    "photo": "./img/profil/téléchargé (24).jfif"
   },
   {
     "username": "henry",
     "password": "henry789",
-    "email": "henry@gmail.com"
+    "email": "henry@gmail.com",
+    "photo": "./img/profil/téléchargé (10).jfif"
   },
   {
     "username": "lily",
     "password": "lilypw",
-    "email": "lily@gmail.com"
+    "email": "lily@gmail.com",
+    "photo": "./img/profil/téléchargé (25).jfif"
   },
   {
     "username": "alexander",
     "password": "alex123",
-    "email": "alexander@gmail.com"
+    "email": "alexander@gmail.com",
+    "photo": "./img/profil/téléchargé (11).jfif"
   },
   {
     "username": "emily",
     "password": "emilypass",
-    "email": "emily@gmail.com"
+    "email": "emily@gmail.com",
+    "photo": "./img/profil/téléchargé (26).jfif"
   },
   {
     "username": "sebastian",
     "password": "sebastian12",
-    "email": "sebastian@gmail.com"
+    "email": "sebastian@gmail.com",
+    "photo": "./img/profil/téléchargé (12).jfif"
   },
   {
     "username": "scarlett",
     "password": "scarlettpw",
-    "email": "scarlett@gmail.com"
+    "email": "scarlett@gmail.com",
+    "photo": "./img/profil/téléchargé (27).jfif"
   },
   {
     "username": "daniel",
     "password": "danielpass",
-    "email": "daniel@gmail.com"
+    "email": "daniel@gmail.com",
+    "photo": "./img/profil/téléchargé (13).jfif"
   },
   {
     "username": "abigail",
     "password": "abigailpw",
-    "email": "abigail@gmail.com"
+    "email": "abigail@gmail.com",
+    "photo": "./img/profil/téléchargé (28).jfif"
   },
   {
     "username": "jack",
     "password": "jack456",
-    "email": "jack@gmail.com"
+    "email": "jack@gmail.com",
+    "photo": "./img/profil/téléchargé (14).jfif"
   },
   {
     "username": "victoria",
     "password": "victoriapw",
-    "email": "victoria@gmail.com"
+    "email": "victoria@gmail.com",
+    "photo": "./img/profil/téléchargé (29).jfif"
   },
   {
     "username": "owen",
     "password": "owen123",
-    "email": "owen@gmail.com"
+    "email": "owen@gmail.com",
+    "photo": "./img/profil/téléchargé (15).jfif"
   },
   {
     "username": "zoey",
     "password": "zoeypass",
-    "email": "zoey@gmail.com"
+    "email": "zoey@gmail.com",
+    "photo": "./img/profil/téléchargé (30).jfif"
   }
 ]
