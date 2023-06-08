@@ -8,6 +8,7 @@ function setup($titre){
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+      <link rel="icon" type="image/x-icon" href="./img/Mondial_NFT_Saler_1.ico">
   <link rel="stylesheet" href="css/style.css">
   </head>
   <body style="background-color:Gray;">
