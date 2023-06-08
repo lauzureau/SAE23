@@ -63,7 +63,7 @@ pageheader("Nos partenaires"); ?>
     </style>
      <div class="container">
     <div class="card">
-      <img src="../img/283.jpg" class="image" alt="Card image" style="cursor:pointer">
+      <img src="./img/283.jpg" class="image" alt="Card image" style="cursor:pointer">
         <div class="overlay">  
    <!-- <script> //Le script suivant permet d'afficher les infomartions quand on a cliquer sur l'image 283
     document.getElementById("IMAGE293").addEventListener("click", image293);
@@ -188,7 +188,7 @@ function imageTheVault() {
 </style>
 <div class="container2">
     <div class="card">
-      <img src="../img/known origin.gif" class="image2" alt="Card image" style="cursor:pointer">
+      <img src="./img/known origin.gif" class="image2" alt="Card image" style="cursor:pointer">
       <div class="overlay2">
       
         <div class="text2">
@@ -242,7 +242,7 @@ function imageTheVault() {
 </style>
     <div class="container4">
     <div  class="card">
-      <img src="../img/REPLICATOR.jpg" class="image4" alt="Card image" style="cursor:pointer">
+      <img src="./img/REPLICATOR.jpg" class="image4" alt="Card image" style="cursor:pointer">
       <div class="overlay4">
 
         <div class="text">
