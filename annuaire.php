@@ -23,7 +23,7 @@
     pageheader('NTFExchange');
     pagenavbar();
     ?>
-    
+    <div class="mt-4 p-5 bg-dark text-warning rounded">
     <h1>Annuaire</h1>
     <div>
         <?php
@@ -49,7 +49,7 @@
         showAccounts($accounts);
         ?>
     </div>
-    
+    </div>
     <?php
     pagefooter();
     ?>
