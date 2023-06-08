@@ -30,7 +30,7 @@ pageheader("Nos partenaires"); ?>
 
         .image {
   display: block;
-  width: 200%;
+  width: 250%;
 
 }
         .text {
@@ -48,7 +48,7 @@ pageheader("Nos partenaires"); ?>
 .container:hover .overlay{
   bottom:0 ;
   height: 100%;
-  width: 200%;
+  width: 250%;
 }
 .overlay {
   position: absolute;
@@ -88,6 +88,29 @@ pageheader("Nos partenaires"); ?>
 
   <div class="col">
 <style>
+          .container3{
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+        .image3 {
+  display: block;
+  width: 200%;
+
+}
+        .text3 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  white-space: nowrap;
+}
 .overlay3 {
   position: absolute;
   bottom: 0;
@@ -100,18 +123,18 @@ pageheader("Nos partenaires"); ?>
   transition: .5s ease;
 }
 
-.container:hover .overlay3 {
+.container3:hover .overlay3 {
   width: 200%;
   left: 0;
 }
 
 </style>
-       <div class="container">
+       <div class="container3">
     <div class="card">
         
-      <img src="../img/the vault.gif" class="image" alt="Card image" style="cursor:pointer">
+      <img src="../img/the vault.gif" class="image3" alt="Card image" style="cursor:pointer">
       <div class="overlay3">
-         <div class="text">Auteur :XCOPY <br>Platform: SuperRare  <br>Blockchain: Ethereum<br>date de création: 04/04/20<br><br>Type: Unique <br>Edition: 1/1 <br>Licence: CC0 <br>oeuvre: the_vault <br>
+         <div class="text3">Auteur :XCOPY <br>Platform: SuperRare  <br>Blockchain: Ethereum<br>date de création: 04/04/20<br><br>Type: Unique <br>Edition: 1/1 <br>Licence: CC0 <br>oeuvre: the_vault <br>
          </div>
     <!--  <script>
 document.getElementById("IMAGETheVault").addEventListener("click", imageTheVault);
@@ -130,6 +153,28 @@ function imageTheVault() {
 
   <div class="col">
     <style>
+              .container2{
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+                .text2 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  white-space: nowrap;
+}
+
+        .image2 {
+  display: block;
+  width: 200%;
+}
 .overlay2 {
   position: absolute;
   bottom: 0;
@@ -142,16 +187,16 @@ function imageTheVault() {
   transition: .5s ease;
 }
 
-.container:hover .overlay2 {
+.container2:hover .overlay2 {
   width: 200%;
 }
 </style>
-<div class="container">
+<div class="container2">
     <div class="card">
-      <img src="../img/known origin.gif" class="image" alt="Card image" style="cursor:pointer">
+      <img src="../img/known origin.gif" class="image2" alt="Card image" style="cursor:pointer">
       <div class="overlay2">
       
-        <div class="text">
+        <div class="text2">
     Artiste : XCOPY <br>
     Nom de l'oeuvre: Vault<br>
     Type: Edition <br>
@@ -170,6 +215,17 @@ function imageTheVault() {
 
   <div class="col">
     <style>
+          .container4{
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+        .image4 {
+  display: block;
+  width: 200%;
+
+}
 .overlay4 {
   position: absolute;
   bottom: 0;
@@ -182,16 +238,16 @@ function imageTheVault() {
   transition: .5s ease;
 }
 
-.container:hover .overlay4 {
+.container4:hover .overlay4 {
   height: 100%;
   width: 200%;
 
 }
 
 </style>
-    <div class="container">
+    <div class="container4">
     <div  class="card">
-      <img src="../img/REPLICATOR.jpg" class="image" alt="Card image" style="cursor:pointer">
+      <img src="../img/REPLICATOR.jpg" class="image4" alt="Card image" style="cursor:pointer">
       <div class="overlay4">
 
         <div class="text">
