@@ -46,12 +46,13 @@ pageheader("Nos partenaires"); ?>
   white-space: nowrap;
 }
 .container:hover .overlay{
-  bottom: 0;
+  bottom:0 ;
   height: 100%;
+  width: 200%;
 }
 .overlay {
   position: absolute;
-  bottom: 200%;
+  bottom: 100%;
   left: 0;
   right: 0;
   background-color: grey;
@@ -100,7 +101,7 @@ pageheader("Nos partenaires"); ?>
 }
 
 .container:hover .overlay3 {
-  width: 100%;
+  width: 200%;
   left: 0;
 }
 
@@ -142,7 +143,7 @@ function imageTheVault() {
 }
 
 .container:hover .overlay2 {
-  width: 100%;
+  width: 200%;
 }
 </style>
 <div class="container">
@@ -183,6 +184,7 @@ function imageTheVault() {
 
 .container:hover .overlay4 {
   height: 100%;
+  width: 200%;
 
 }
 
