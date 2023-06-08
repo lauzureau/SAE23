@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Cartes retournantes avec données PHP</title>
+    <title>Histoire</title>
     <style>
         .card-container {
             perspective: 1000px;
@@ -66,7 +66,7 @@
     setup("SAE23");
     
     echo '<div class="container mt-3">';
-    echo '<h1>NTFExchange</h1>';
+    pageheader('NTFExchange');
     pagenavbar();
     
     echo '<div class="center-container">'; // Container to center the card section
