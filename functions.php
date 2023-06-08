@@ -33,6 +33,9 @@ function pagenavbar(){
   <li class="nav-item">
   <a class="nav-link" href="partenaire.php">Nos partenaires</a>
   </li>
+  <li class="nav-item">
+  <a class="nav-link" href="boutique_vitrine.php">Boutique</a>
+  </li>
   </ul>
   <ul class="navbar-nav ml-auto">
           <li class="nav-item">
