@@ -9,10 +9,11 @@ pageheader('NTFExchange');
 
 pagenavbar();
 ?>
+    
+<body>
     <?php
-echo '<body>
-    <p style="color:#ffc107;>Boutique vitrine<p> <br>
-    <p style="color:#ffc107;>Vous devez vous connecter pour pouvoir acheter des NFT</p>';
+    echo' <h1 style="color:#ffc107";>Boutique vitrine</h1> ';
+    echo' <p style="color:#ffc107";>Vous devez vous connecter pour pouvoir acheter des NFT</p>';
 
     // Données des articles (à remplacer par des données réelles)
     $articles_col1 = [
