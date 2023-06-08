@@ -10,6 +10,8 @@ pageheader('NTFExchange');
 
 pagenavbar();
 
+echo '<h1 style="color:#ffc107;">Bienvenue</h1>';
+
 echo '<div class="mt-4 p-5 bg-dark text-warning rounded">';
 echo "<p>NTFExchange est une entreprise de premier plan dans le domaine des NFT (Non-Fungible Tokens) et de l'échange de biens numériques uniques. Nous sommes une plateforme en ligne sécurisée qui permet aux utilisateurs d'acheter, de vendre et de échanger des NFT de manière transparente et efficace.
 
