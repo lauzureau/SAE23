@@ -11,8 +11,8 @@ pagenavbar();
 ?>
 
 <body>
-    <h1>Boutique vitrine</h1>
-    <p>Vous devez vous connecter pour pouvoir acheter des NFT</p>
+    <p style="color:#ffc107;>Boutique vitrine<p>
+    <p style="color:#ffc107;>Vous devez vous connecter pour pouvoir acheter des NFT</p>
     <?php
     // Données des articles (à remplacer par des données réelles)
     $articles_col1 = [
