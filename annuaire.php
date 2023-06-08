@@ -13,29 +13,36 @@
             text-align: left;
             border-bottom: 1px solid #ddd;
         }
+        
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
     </style>
 </head>
 <body>
     <?php
     include "functions.php";
     setup("SAE23");
-    echo ' <div class="container mt-3">';
     pageheader('NTFExchange');
     pagenavbar();
     ?>
-    <div class="mt-4 p-5 bg-dark text-warning rounded">
+    
     <h1>Annuaire</h1>
     <div>
         <?php
         function showAccounts($accounts) {
             if (count($accounts) > 0) {
                 echo '<table>';
-                echo '<tr><th>Nom</th><th>Mot de passe</th><th>Email</th></tr>';
+                echo '<tr><th>Nom</th><th>Mot de passe</th><th>Email</th><th>Photo</th></tr>';
                 foreach ($accounts as $account) {
                     echo '<tr>';
                     echo '<td>' . $account['username'] . '</td>';
                     echo '<td>' . $account['password'] . '</td>';
                     echo '<td>' . $account['email'] . '</td>';
+                    echo '<td><img src="' . $account['photo'] . '" alt="Photo de profil" class="profile-pic"></td>';
                     echo '</tr>';
                 }
                 echo '</table>';
@@ -49,7 +56,7 @@
         showAccounts($accounts);
         ?>
     </div>
-    </div>
+    
     <?php
     pagefooter();
     ?>
