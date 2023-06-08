@@ -74,24 +74,9 @@ function pagenavbar(){
   </div>';
 }
 function pageheader($title){
-   echo '<!DOCTYPE html>
-  <html>
-  <head>
-  <meta charset="utf-8">
-  <title>';
 
-  // Modifier le titre en fonction du contexte
-  if ($title === "connexion_reussie") {
-      echo "Connexion réussie";
-  } elseif ($title === "inscription_reussie") {
-      echo "Inscription réussie";
-  } else {
-      echo $title;
-  }
 
-  echo '</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
-  </head>
+  echo '
   <h1 style="color:#ffc107;">';
 
   // Modifier le titre en fonction du contexte
