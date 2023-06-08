@@ -13,6 +13,7 @@ pagenavbar();
 echo "
 	<div class='container'>";
 		echo '<h1 style="color:#ffc107;">Nos activités</h1>';
+		echo '<div class="mt-4 p-5 bg-dark text-warning rounded">';
 		echo "<ul> 
 		<li>Plateforme d'échange de NFT : NTFExchange offre une plateforme en ligne permettant aux utilisateurs d'acheter, vendre et échanger des NFT de manière sécurisée et transparente.</li>
 		<li>Vente aux enchères de NFT : L'entreprise organise des ventes aux enchères régulières où les utilisateurs peuvent proposer leurs NFT uniques et les collectionneurs peuvent enchérir pour les acquérir.</li>
