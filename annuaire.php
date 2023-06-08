@@ -19,6 +19,7 @@
     <?php
     include "functions.php";
     setup("SAE23");
+    echo ' <div class="container mt-3">';
     pageheader('NTFExchange');
     pagenavbar();
     ?>
