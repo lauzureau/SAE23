@@ -10,8 +10,8 @@ pageheader('NTFExchange');
 
 pagenavbar();
 
-echo "<div class='container'>
-			<p>NTFExchange est une entreprise de premier plan dans le domaine des NFT (Non-Fungible Tokens) et de l'échange de biens numériques uniques. Nous sommes une plateforme en ligne sécurisée qui permet aux utilisateurs d'acheter, de vendre et de échanger des NFT de manière transparente et efficace.
+echo '<div class="mt-4 p-5 bg-dark text-warning rounded">';
+echo "<p>NTFExchange est une entreprise de premier plan dans le domaine des NFT (Non-Fungible Tokens) et de l'échange de biens numériques uniques. Nous sommes une plateforme en ligne sécurisée qui permet aux utilisateurs d'acheter, de vendre et de échanger des NFT de manière transparente et efficace.
 
 Chez NTFExchange, nous comprenons le potentiel révolutionnaire des NFT dans le domaine de l'art, de la musique, des jeux et bien d'autres secteurs. Nous croyons fermement que les NFT sont la prochaine évolution de la propriété numérique, offrant aux créateurs et aux collectionneurs la possibilité de détenir des actifs numériques uniques et authentifiés.
 
@@ -23,7 +23,6 @@ NTFExchange est également un espace communautaire dynamique où les créateurs 
 
 Rejoignez NTFExchange dès aujourd'hui et faites partie de la révolution des NFT. Découvrez des œuvres uniques, trouvez des opportunités d'investissement passionnantes et connectez-vous avec une communauté mondiale de créateurs et de collectionneurs. Ensemble, nous donnons vie à la propriété numérique.</p>
 	</div>";
-
 
 pagefooter();
 
