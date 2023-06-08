@@ -1,16 +1,22 @@
 <?php session_start();
 include "./functions.php";
-setup("Partenaire");
+setup("SAE23");
  ?>
 <!DOCTYPE html>
 <html class="responsive">
 
-<?php pagenavbar();
-pageheader("Nos partenaires"); ?>
+
 <body>
+    <div class="container mt-3">
+    
+    <?php pagenavbar();
+pageheader("Nos partenaires"); ?> 
 <br> <br> 
+   <!-- Nous sommes fiers de vous présenter nos partenaires de renom : Goldman Sachs, JPMorgan Chase et Citigroup. Grâce à leur soutien, nous créons un écosystème solide pour les artistes et les collectionneurs de NFT. Ensemble, nous façonnons l'avenir de l'art numérique et de la finance, offrant des opportunités uniques et une visibilité mondiale aux talents émergents. Rejoignez-nous dans cette nouvelle ère passionnante, où la créativité rencontre l'innovation financière. Explorez nos collections, enchères et événements exclusifs, et découvrez le pouvoir des NFTs dans notre partenariat avec Goldman Sachs, JPMorgan Chase et Citigroup. Bienvenue dans notre univers inspirant.
+-->
+
 <h3>
-<p style="text-align:center">En tant que partenaires principaux de notre site web de NFT, XCOPY (ou Xcopyart) et Mad Dog Jones apportent leur talent exceptionnel, leur vision artistique novatrice et leur influence dans le monde de l'art numérique. <br>Leurs œuvres uniques et leur engagement envers l'exploration de nouvelles frontières artistiques font d'eux des acteurs majeurs de la scène des NFT. <br>Nous sommes fiers de collaborer avec ces artistes talentueux pour offrir à notre communauté d'amateurs d'art une expérience inoubliable à travers notre plateforme de NFT. </p></h3>
+<p style="text-align:center">En tant que partenaires principaux, XCOPY (ou Xcopyart) et Mad Dog Jones apportent leur talent exceptionnel, leur vision artistique novatrice et leur influence dans le monde de l'art numérique. <br>Leurs œuvres uniques et leur engagement envers l'exploration de nouvelles frontières artistiques font d'eux des acteurs majeurs de la scène des NFT. <br>Nous sommes fiers de collaborer avec ces artistes talentueux pour offrir à notre communauté d'amateurs d'art une expérience inoubliable.</p></h3>
 <div class="row row-cols-1 row-cols-md-2 g-4">
    
   <div class="col"> 
@@ -187,6 +193,7 @@ function imageTheVault() {
       </div>
     </div>
   </div>
+</div>
 </div>
 </div>
 
