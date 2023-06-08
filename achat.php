@@ -68,6 +68,7 @@ pagenavbar();
     ];
 
     // Afficher les cartes pour chaque article
+    echo '<div class="mt-4 p-5 bg-dark text-warning rounded">';
     echo '<div class="row">';
     
     // Colonne 1
@@ -118,6 +119,7 @@ pagenavbar();
     }
     echo '</div>';
 
+    echo '</div>';
     echo '</div>';
     ?>
 
