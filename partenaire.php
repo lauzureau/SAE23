@@ -15,21 +15,23 @@ pageheader("Nos partenaires"); ?>
    <!-- Nous sommes fiers de vous présenter nos partenaires de renom : Goldman Sachs, JPMorgan Chase et Citigroup. Grâce à leur soutien, nous créons un écosystème solide pour les artistes et les collectionneurs de NFT. Ensemble, nous façonnons l'avenir de l'art numérique et de la finance, offrant des opportunités uniques et une visibilité mondiale aux talents émergents. Rejoignez-nous dans cette nouvelle ère passionnante, où la créativité rencontre l'innovation financière. Explorez nos collections, enchères et événements exclusifs, et découvrez le pouvoir des NFTs dans notre partenariat avec Goldman Sachs, JPMorgan Chase et Citigroup. Bienvenue dans notre univers inspirant.
 -->
 
-<h3>
-<p style="text-align:center">En tant que partenaires principaux, XCOPY (ou Xcopyart) et Mad Dog Jones apportent leur talent exceptionnel, leur vision artistique novatrice et leur influence dans le monde de l'art numérique. <br>Leurs œuvres uniques et leur engagement envers l'exploration de nouvelles frontières artistiques font d'eux des acteurs majeurs de la scène des NFT. <br>Nous sommes fiers de collaborer avec ces artistes talentueux pour offrir à notre communauté d'amateurs d'art une expérience inoubliable.</p></h3>
+
+  <div class="mt-4 p-5 bg-dark text-warning rounded">
+<p>En tant que partenaires principaux, XCOPY (ou Xcopyart) et Mad Dog Jones apportent leur talent exceptionnel, leur vision artistique novatrice et leur influence dans le monde de l'art numérique. <br>Leurs œuvres uniques et leur engagement envers l'exploration de nouvelles frontières artistiques font d'eux des acteurs majeurs de la scène des NFT. <br>Nous sommes fiers de collaborer avec ces artistes talentueux pour offrir à notre communauté d'amateurs d'art une expérience inoubliable.</p> </div>
 <div class="row row-cols-1 row-cols-md-2 g-4">
    
   <div class="col"> 
     <style>
         .container{
             position: relative;
-            width: 80%;
+            width: 100%;
+            height: 100%;
         }
 
         .image {
   display: block;
-  width: 100%;
-  height: auto;
+  width: 200%;
+
 }
         .text {
   color: white;
@@ -49,7 +51,7 @@ pageheader("Nos partenaires"); ?>
 }
 .overlay {
   position: absolute;
-  bottom: 100%;
+  bottom: 200%;
   left: 0;
   right: 0;
   background-color: grey;
@@ -77,7 +79,8 @@ pageheader("Nos partenaires"); ?>
         </div>
     </div>
     <br> <br><br>
-   <h5><p style="text-align:center"> Mad Dog Jones est un artiste numérique renommé pour ses créations saisissantes qui mêlent l'art traditionnel et l'esthétique cyberpunk. Ses œuvres combinent des éléments réalistes avec des éléments futuristes, créant ainsi un monde visuel captivant. Mad Dog Jones explore des thèmes tels que la technologie, la société de consommation, l'aliénation et les relations humaines dans un contexte technologique. Ses œuvres d'art sont riches en détails, en textures et en symbolismes, invitant les spectateurs à réfléchir sur les complexités de notre monde moderne. En tant qu'artiste NFT, Mad Dog Jones a connu un grand succès, avec ses créations uniques recherchées par les collectionneurs du monde entier. </p></h5>
+    <div class="mt-4 p-5 bg-dark text-warning rounded">
+   <p> Mad Dog Jones est un artiste numérique renommé pour ses créations saisissantes qui mêlent l'art traditionnel et l'esthétique cyberpunk. Ses œuvres combinent des éléments réalistes avec des éléments futuristes, créant ainsi un monde visuel captivant. Mad Dog Jones explore des thèmes tels que la technologie, la société de consommation, l'aliénation et les relations humaines dans un contexte technologique. Ses œuvres d'art sont riches en détails, en textures et en symbolismes, invitant les spectateurs à réfléchir sur les complexités de notre monde moderne. En tant qu'artiste NFT, Mad Dog Jones a connu un grand succès, avec ses créations uniques recherchées par les collectionneurs du monde entier. </p></div>
     </div>
   
 </div>
@@ -119,7 +122,8 @@ function imageTheVault() {
  </div>
     </div>
     <br>     <br> 
-    <h5> <p style="text-align: center"> XCOPY est un artiste numérique contemporain connu pour son style distinctif et sa vision futuriste. Ses œuvres d'art sont créées à l'aide de techniques numériques avancées, combinant des éléments du monde réel avec des éléments de la technologie et de la culture contemporaine. Ses créations explorent souvent des thèmes tels que l'intelligence artificielle, la réalité virtuelle, et les enjeux sociétaux liés à la technologie. Les œuvres de XCOPY sont hautement reconnaissables grâce à leur esthétique unique, mêlant des éléments rétro-futuristes et une palette de couleurs vibrantes. En tant qu'artiste émergent dans le domaine des NFT, XCOPY est reconnu pour son influence sur la scène artistique numérique et sa capacité à captiver les amateurs d'art du monde entier.</p></h5>
+       <div class="mt-4 p-5 bg-dark text-warning rounded">
+    <p style="text-align: center"> XCOPY est un artiste numérique contemporain connu pour son style distinctif et sa vision futuriste. Ses œuvres d'art sont créées à l'aide de techniques numériques avancées, combinant des éléments du monde réel avec des éléments de la technologie et de la culture contemporaine. Ses créations explorent souvent des thèmes tels que l'intelligence artificielle, la réalité virtuelle, et les enjeux sociétaux liés à la technologie. Les œuvres de XCOPY sont hautement reconnaissables grâce à leur esthétique unique, mêlant des éléments rétro-futuristes et une palette de couleurs vibrantes. En tant qu'artiste émergent dans le domaine des NFT, XCOPY est reconnu pour son influence sur la scène artistique numérique et sa capacité à captiver les amateurs d'art du monde entier.</p> </div>
 </div>
 </div>
 
@@ -179,6 +183,7 @@ function imageTheVault() {
 
 .container:hover .overlay4 {
   height: 100%;
+
 }
 
 </style>
