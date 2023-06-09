@@ -117,42 +117,46 @@
 <?php
 include "functions.php";
 setup("SAE23");
+echo ' <div class="container mt-3">';
 pageheader('NTFExchange');
 pagenavbar();
+
 ?>
+<div class="mt-4 p-5 bg-dark text-warning rounded">
   <div class="timeline-container">
     <div class="timeline-block timeline-block-right">
       <div class="marker"></div>
       <div class="timeline-content">
-        <h3>2017</h3>
-        <p>Fondation de NTFExchange par un groupe d'entrepreneurs passionnés par le potentiel des NFTs dans le domaine de l'art numérique.</p>
+        <h3 style="color:#ffc107;">2017</h3>
+        <p style="color:#ffc107;">Fondation de NTFExchange par un groupe d'entrepreneurs passionnés par le potentiel des NFTs dans le domaine de l'art numérique.</p>
       </div>
     </div>
 
     <div class="timeline-block timeline-block-left">
       <div class="marker"></div>
       <div class="timeline-content">
-        <h3>2018</h3>
-        <p>Sous la présidence de John Davis, NTFExchange connaît une croissance significative et devient une plateforme réputée pour l'achat, la vente et l'échange de NFTs. L'entreprise établit des partenariats stratégiques avec des artistes et des collectionneurs influents.</p>
+        <h3 style="color:#ffc107;">2018</h3>
+        <p style="color:#ffc107;">Sous la présidence de John Davis, NTFExchange connaît une croissance significative et devient une plateforme réputée pour l'achat, la vente et l'échange de NFTs. L'entreprise établit des partenariats stratégiques avec des artistes et des collectionneurs influents.</p>
       </div>
     </div>
 
     <div class="timeline-block timeline-block-right">
       <div class="marker"></div>
       <div class="timeline-content">
-        <h3>2021</h3>
-        <p>NTFExchange lance sa propre plateforme de création et de vente de NFTs, offrant ainsi une solution complète pour les artistes souhaitant se lancer dans l'univers des NFTs.</p>
+        <h3 style="color:#ffc107;">2021</h3>
+        <p style="color:#ffc107;">NTFExchange lance sa propre plateforme de création et de vente de NFTs, offrant ainsi une solution complète pour les artistes souhaitant se lancer dans l'univers des NFTs.</p>
       </div>
     </div>
 
     <div class="timeline-block timeline-block-left">
       <div class="marker"></div>
       <div class="timeline-content">
-        <h3>2023</h3>
-        <p>NTFExchange franchit le cap des 10 millions de NFTs vendus sur sa plateforme, devenant ainsi l'une des principales références du marché des NFTs.</p>
+        <h3 style="color:#ffc107;">2023</h3>
+        <p style="color:#ffc107;">NTFExchange franchit le cap des 10 millions de NFTs vendus sur sa plateforme, devenant ainsi l'une des principales références du marché des NFTs.</p>
       </div>
     </div>
   </div>
+</div>
 <?php
 pagefooter();
 ?>
