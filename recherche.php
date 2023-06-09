@@ -7,7 +7,7 @@ $title = 'Formulaire de recherche';
 
 // Appeler la fonction setup pour inclure les fichiers CSS et JavaScript de Bootstrap, et définir le titre de la page
 setup($title);
-
+echo ' <div class="container mt-3">';
 // Créer la navbar et définir la page active
 $pagenum = 'page02';
 pagenavbar($pagenum);
