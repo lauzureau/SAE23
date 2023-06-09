@@ -63,6 +63,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <title>Connexion</title>
 </head>
 <body>
+    <div class="mt-4 p-5 bg-dark text-warning rounded">
     <h1>Connexion</h1>
 
     <?php if (isset($errorMessage)) : ?>
@@ -76,6 +77,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <input type="password" id="password" name="password" required><br>
         <input type="submit" value="Connexion">
     </form>
+    </div>
 </body>
 </html>
 
