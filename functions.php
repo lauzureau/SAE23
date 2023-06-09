@@ -42,6 +42,9 @@ function pagenavbar(){
   <li class="nav-item">
   <a class="nav-link" href="recherche.php">Recherche</a>
   </li>
+  <li class="nav-item">
+  <a class="nav-link" href="Wiki.php">Wiki</a>
+  </li>
   </ul>
   <ul class="navbar-nav ml-auto">
           <li class="nav-item">
