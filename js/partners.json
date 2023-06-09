@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Google",
+    "website": "https://www.google.com",
+    "logo": "img/google.png"
+  },
+  {
+    "name": "Binance",
+    "website": "https://www.binance.com",
+    "logo": "img/binance.png"
+  },
+  {
+    "name": "BNP",
+    "website": "https://mabanque.bnpparibas/",
+    "logo": "img/bnp.png"
+  }
+]
