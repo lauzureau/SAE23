@@ -17,7 +17,7 @@ session_start();
 // Fonction pour authentifier l'utilisateur
 function authenticateUser($username, $password) {
     // Charger les données des utilisateurs depuis le fichier JSON
-    $usersData = json_decode(file_get_contents('users.json'), true);
+    $usersData = json_decode(file_get_contents('js/comptes.json'), true);
 
     foreach ($usersData as $user) {
         if ($user['username'] === $username && $user['password'] === $password) {
