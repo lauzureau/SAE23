@@ -55,12 +55,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['add_partner'])) {
     if ($logo['error'] === UPLOAD_ERR_OK) {
         // Déplacer le fichier téléchargé vers un emplacement permanent
         $logoName = $logo['name'];
-        $logoPath = './uploads/' . $logoName;
+        $logoPath = './img/' . $logoName;
         move_uploaded_file($logo['tmp_name'], $logoPath);
     } else {
         // Utiliser un logo par défaut si aucun fichier n'a été téléchargé
         $logoName = 'default_logo.png';
-        $logoPath = './uploads/' . $logoName;
+        $logoPath = './img/' . $logoName;
     }
 
     // Créer un nouvel objet partenaire
