@@ -41,7 +41,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // Enregistrer l'utilisateur dans le fichier users.json
 
         // Lire les utilisateurs existants depuis le fichier users.json
-        $usersData = file_get_contents('js/comptes.json');
+        $usersData = file_get_contents('./js/comptes.json');
         $users = json_decode($usersData, true);
 
         // Vérifier si l'utilisateur existe déjà
