@@ -26,13 +26,14 @@
     <?php
     include "functions.php";
     setup("SAE23");
+    echo ' <div class="container mt-3">';
     pageheader('NTFExchange');
     pagenavbar();
     ?>
-    
-    <h1>Annuaire</h1>
+    <h1 style="color:#ffc107;">Annuaire</h1>
     <div>
         <?php
+        echo '<div class="mt-4 p-5 bg-dark text-warning rounded">';
         function showAccounts($accounts) {
             if (count($accounts) > 0) {
                 echo '<table>';
@@ -54,6 +55,7 @@
         // Afficher la liste des comptes à partir du fichier JSON
         $accounts = json_decode(file_get_contents('./js/comptes.json'), true);
         showAccounts($accounts);
+        echo'</div>';
         ?>
     </div>
     
