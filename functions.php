@@ -39,6 +39,9 @@ function pagenavbar(){
   <li class="nav-item">
   <a class="nav-link" href="annuaire.php">Annuaire</a>
   </li>
+  <li class="nav-item">
+  <a class="nav-link" href="recherche.php">Recherche</a>
+  </li>
   </ul>
   <ul class="navbar-nav ml-auto">
           <li class="nav-item">
@@ -118,6 +121,40 @@ function displayRegistrationFormWithError() {
             <button type="submit" class="btn btn-primary">S\'inscrire</button>
         </form>';
 }
+// Fonction pour trouver les employés correspondants à un mot-clé
+function findEmployes($employes, $keyword) {
+  $results = array();
+
+  // Parcourir tous les employés
+  foreach ($employes as $employe) {
+      // Vérifier si le nom de l'employé contient le mot-clé
+      if (stripos($employe['username'], $keyword) !== false) {
+          // Ajouter l'employé aux résultats
+          $results[] = $employe;
+      }
+  }
+
+  return $results;
+}
+
+// Fonction pour afficher les employés
+function showEmployes($employes) {
+  foreach ($employes as $employe) {
+      echo '<div class="employee-profile">';
+      echo '<img src="' . $employe['photo'] . '" alt="Photo de ' . $employe['username'] . '">';
+      echo '<h2>' . $employe['username'] . '</h2>';
+
+      if (is_array($employe['groups'])) {
+          echo '<p>Poste : ' . implode(', ', $employe['groups']) . '</p>';
+      } else {
+          echo '<p>Poste : ' . $employe['groups'] . '</p>';
+      }
+
+      echo '<p>Email : ' . $employe['email'] . '</p>';
+      echo '</div>';
+  }
+}
+
 function pagefooter(){
   
   echo '<footer class="bg-light text-center text-lg-start ">
