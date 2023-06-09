@@ -41,7 +41,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // Enregistrer l'utilisateur dans le fichier users.json
 
         // Lire les utilisateurs existants depuis le fichier users.json
-        $usersData = file_get_contents('users.json');
+        $usersData = file_get_contents('js/comptes.json');
         $users = json_decode($usersData, true);
 
         // Vérifier si l'utilisateur existe déjà
@@ -69,7 +69,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $users[$newUserID] = $newUser;
 
             // Enregistrer le tableau mis à jour dans le fichier users.json
-            file_put_contents('users.json', json_encode($users, JSON_PRETTY_PRINT));
+            file_put_contents('js/comptes.json', json_encode($users, JSON_PRETTY_PRINT));
 
             // Afficher le message de succès
             $successMsg = 'Inscription réussie. Vous pouvez maintenant vous connecter.';
